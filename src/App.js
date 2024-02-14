@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 
-// `https://api.frankfurter.app/latest?amount=100&from=EUR&to=USD`
-
 function Result({ result }) {
   return <p>{result}</p>;
 }
